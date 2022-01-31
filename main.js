@@ -20,6 +20,8 @@ function player_update(){
     });
 
 }
+function a(){}
+
 
 function new_image (get_image){
     fabric.Image.fromURL(get_image,function(Img)
