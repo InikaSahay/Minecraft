@@ -8,7 +8,7 @@ var player_object="";
 var block_img_object="";
 
 function player_update(){
-    fabric.Image.formURL("player.png",function(Img)
+    fabric.Image.fromURL("player.png",function(Img)
     {
         player_object=Img;
         player_object.scaleToWidth(150);
